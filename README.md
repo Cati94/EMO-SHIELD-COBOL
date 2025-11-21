@@ -1,6 +1,8 @@
 # 🛡️ Emotional Shield COBOL  
 ### *A Lightweight Emotional Processing Engine in Pseudo-COBOL*
 
+![Logo](https://github.com/Cati94/EMO-SHIELD-COBOL/blob/main/logoemocional.png)
+
 ## 📌 Sobre o Projeto
 
 **Emotional Shield COBOL** é um projeto simbólico e experimental que utiliza pseudo-COBOL para representar a lógica de um **filtro emocional interno** — um sistema capaz de:
