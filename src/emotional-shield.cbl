@@ -1,0 +1,22 @@
+
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. EMOTIONAL-SHIELD.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 TRIGGER         PIC X(50).
+       01 RESPONSE        PIC X(100).
+
+       PROCEDURE DIVISION.
+       MAIN-LOGIC.
+           ACCEPT TRIGGER FROM CONSOLE
+           EVALUATE TRIGGER
+              WHEN "critica"
+                   MOVE "ATIVAR FILTRO: RESPIRAR + DISTANCIAR" TO RESPONSE
+              WHEN "culpa"
+                   MOVE "REVER FACTOS + APLICAR AUTO-COMPAXAO" TO RESPONSE
+              WHEN OTHER
+                   MOVE "ESCUDO ATIVO: ANALISAR + RESPONDER COM CALMA" TO RESPONSE
+           END-EVALUATE
+           DISPLAY RESPONSE
+           STOP RUN.
