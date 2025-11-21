@@ -126,16 +126,6 @@ O “motor emocional” segue quatro passos:
 ## 🧱 Filosofia  
 > **Sentimentos são dados.**  
 Mesmo caóticos, podem ser organizados, analisados e tratados com compaixão estruturada.
-
----
-
-## 🌱 Roadmap  
-- [ ] UI simples em HTML  
-- [ ] Versão Python real  
-- [ ] Interpreter emocional  
-- [ ] Testes unitários  
-- [ ] Módulos emocionais avançados  
-
 ---
 
 ## 📜 Licença  
